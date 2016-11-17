@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/menu/icons">
+        <file>images/add.png</file>
+        <file>images/cancel.png</file>
+        <file>images/chart_curve.png</file>
+        <file>images/clock_stop.png</file>
+        <file>images/contact_email.png</file>
+        <file>images/cross.png</file>
+        <file>images/cross2.png</file>
+        <file>images/delete.png</file>
+        <file>images/disk.png</file>
+        <file>images/disk_multiple.png</file>
+        <file>images/disk_sepia.png</file>
+        <file>images/document_import.png</file>
+        <file>images/document_inspector.png</file>
+        <file>images/door_out.png</file>
+        <file>images/error.png</file>
+        <file>images/exclamation.png</file>
+        <file>images/file_extension_pdf.png</file>
+        <file>images/firefox.png</file>
+        <file>images/folder.png</file>
+        <file>images/folder_page_white.png</file>
+        <file>images/help.png</file>
+        <file>images/information.png</file>
+        <file>images/interface_preferences.png</file>
+        <file>images/interface_preferences2.png</file>
+        <file>images/open_folder.png</file>
+        <file>images/package.png</file>
+        <file>images/page_white.png</file>
+        <file>images/page_white_stack.png</file>
+        <file>images/save_as.png</file>
+        <file>images/script_edit.png</file>
+        <file>images/script_go.png</file>
+        <file>images/script_save.png</file>
+        <file>images/setting_tools.png</file>
+    </qresource>
+    <qresource prefix="/about/logos">
+        <file>images/about_images/lgplv3-147x51.png</file>
+        <file>images/about_images/4096px-Logotipo_del_Ministerio_de_Educación,_Cultura_y_Deporte_2.png</file>
+        <file>images/about_images/kth-logo.png</file>
+        <file>images/about_images/logo bcam color.jpg</file>
+        <file>images/about_images/fatcow_32x32.png</file>
+        <file>images/about_images/xbitrock-logo.gif.pagespeed.ic.skaj3s0wTK.png</file>
+    </qresource>
+</RCC>
