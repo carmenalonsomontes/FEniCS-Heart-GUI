@@ -16,3 +16,7 @@ Date: Novemeber 2016
 3. Acknowledgements
 This work was possible thanks to the mobility grant José Castillejo 2016 CAS16/00171 (MECD, Spain) and in close collaboration with
 Jeannette Hiromi Spühler, Department of Computational Science and Technology (KTH)
+
+4. Third party acknowledgemnts
+This tool comes with a installer. Bitrock installer - Install Builder (https://installbuilder.bitrock.com/index.html) was
+used to create it.
