@@ -1,7 +1,0 @@
-<map id="GUIConfigData::clear" name="GUIConfigData::clear">
-<area shape="rect" id="node2" href="$class_vol4_d_configuration_data.html#a784aa97d4b03cdf621bf374511e7ee6c" title="clears the information stored in the object " alt="" coords="216,5,379,46"/>
-<area shape="rect" id="node3" href="$class_matlab_configuration_data.html#a3d45e3dcb7b8a165d7f6ad9539164901" title="clears the information stored in the object " alt="" coords="214,70,381,111"/>
-<area shape="rect" id="node4" href="$class_ansa_configuration_data.html#ad5792eab298b41b552aa277680255290" title="clears the information stored in the object " alt="" coords="219,135,376,177"/>
-<area shape="rect" id="node5" href="$class_inflow_outflow_data_mark.html#a431aacab0d602ed04c1e39e68f550a6c" title="clears the information stored in the object " alt="" coords="218,201,377,242"/>
-<area shape="rect" id="node6" href="$class_simulation_configuration_data.html#ae41f007989b4eccd6ed8f80ea5597851" title="clears the information stored in the object " alt="" coords="203,266,391,307"/>
-</map>

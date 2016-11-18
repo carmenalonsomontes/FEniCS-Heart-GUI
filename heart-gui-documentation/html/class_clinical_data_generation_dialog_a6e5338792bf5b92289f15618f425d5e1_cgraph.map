@@ -1,5 +1,0 @@
-<map id="ClinicalDataGenerationDialog::setProjectData" name="ClinicalDataGenerationDialog::setProjectData">
-<area shape="rect" id="node2" href="$class_project_data.html#a938883c8013e886b4f1f92d172987024" title="Get the path where the Clinical Data patients are. " alt="" coords="265,5,425,46"/>
-<area shape="rect" id="node3" href="$class_clinical_data_generation_dialog.html#a5da23ec80896af51457bd321a7415a33" title="Set patient list. " alt="" coords="249,70,442,111"/>
-<area shape="rect" id="node4" href="$class_project_data.html#a56b9441ffc18a96622cade55b0c8c8e4" title="Get the list of patient objects. " alt="" coords="252,136,439,163"/>
-</map>

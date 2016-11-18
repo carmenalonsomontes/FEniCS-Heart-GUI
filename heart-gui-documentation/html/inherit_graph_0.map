@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_about_dialog.html" title="This class is intended to define the logic for the About dialog. " alt="" coords="179,5,272,32"/>
-<area shape="rect" id="node3" href="$class_clinical_data_generation_dialog.html" title="This class is intended to define the logic for the Clinical Data Generation dialog. " alt="" coords="129,56,322,83"/>
-<area shape="rect" id="node4" href="$class_manual_patient_numbering_dialog.html" title="This class is intended to define the logic for the Manual Patient Numbering (Syastole/Dyastole) dialo..." alt="" coords="123,107,328,133"/>
-<area shape="rect" id="node5" href="$class_preferences_dialog.html" title="This class is intended to define the logic for the Preferences dialog. " alt="" coords="161,157,290,184"/>
-<area shape="rect" id="node6" href="$class_project_preferences_dialog.html" title="This class is intended to define the logic for the Project PReferences dialog TODO. " alt="" coords="140,208,311,235"/>
-<area shape="rect" id="node7" href="$class_remove_patients_dialog.html" title="This class is intended to define the logic for the REMOVE PATIENT dialog. " alt="" coords="147,259,303,285"/>
-<area shape="rect" id="node8" href="$class_specific_loading_rules_dialog.html" title="This class is intended to define the logic for the Specific Loading Rules dialog. ..." alt="" coords="133,309,318,336"/>
-</map>
