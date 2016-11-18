@@ -23,19 +23,36 @@ namespace Ui {
 class AboutDialog;
 }
 
+/**
+ * @brief This class is intended to define the logic for the About dialog
+ *
+ */
 class AboutDialog : public QDialog
 {
     Q_OBJECT
 
 public:
+    /**
+     * @brief Creation of the object
+     *
+     * @param parent
+     */
     explicit AboutDialog(QWidget *parent = 0);
+    /**
+     * @brief
+     *
+     */
     ~AboutDialog();
 
 private slots:
+    /**
+     * @brief This function closes the About dialog
+     *
+     */
     void on_pushButton_clicked();
 
 private:
-    Ui::AboutDialog *ui;
+    Ui::AboutDialog *ui; /**< TODO */
 };
 
 #endif // ABOUTDIALOG_H
