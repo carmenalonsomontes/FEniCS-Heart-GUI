@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=HeartFEniCSUI
+Comment=HeartFEniCSUI Launcher
+Exec=/home/cmontes/fenicsheartgui-1.0/HeartFEniCSUI
+Icon=/home/cmontes/fenicsheartgui-1.0/logo/heart-logo-jeanette.png
+Terminal=false
+Type=Application
+Categories=Qt;Utility;
+Name[en_US]=HeartFEniCSUI.desktop
