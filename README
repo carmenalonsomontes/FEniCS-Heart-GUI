@@ -1,0 +1,18 @@
+Graphical User Interface to automate the pipeline for Heart simulation using FEniCS
+
+1. Motivation
+
+This GUI is intended to help in the automation of the script generation for the heart simulation used by the research group at KTH. 
+It is still in early versions, with very few functionality available, but with the basics.
+
+
+2. Implemented features
+Date: Novemeber 2016
++ Automatic generation of execution and launch scripts to be connected with cluster and based on user information
++ Automatic generation of clinical file with the relevant information of patients
++ Easing the parameter selection for dyastole/syastole per each patient in a study
+
+
+3. Acknowledgements
+This work was possible thanks to the mobility grant José Castillejo 2016 CAS16/00171 (MECD, Spain) and in close collaboration with
+Jeannette Hiromi Spühler, Department of Computational Science and Technology (KTH)
