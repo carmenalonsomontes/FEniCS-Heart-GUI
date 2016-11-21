@@ -114,6 +114,7 @@ private slots:
      */
     void on_actionAbout_HeartFEniCs_GUI_triggered();
 
+    void UpdateConsole(const QString text);
 private:
     Ui::MainWindow *ui; /**< TODO */
     GUIConfigData * _userSessionData; /**< TODO */

@@ -10,7 +10,12 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = HeartFEniCSUI
 TEMPLATE = app
-
+CONFIG += debug #release
+debug:DESTDIR = debug
+debug:OBJECTS_DIR = debug/.o
+debug:MOC_DIR = debug/.moc
+debug:RCC_DIR = debug/.rcc
+debug:UI_DIR = debug/.ui
 
 SOURCES += main.cpp\
         mainwindow.cpp \
@@ -69,3 +74,5 @@ FORMS    += mainwindow.ui \
 
 RESOURCES += \
     resourcesUI.qrc
+
+

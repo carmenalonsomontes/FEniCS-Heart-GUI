@@ -72,6 +72,10 @@ void MainWindow::on_actionNew_Project_triggered()
         enableSaveButton();
         enableCloseButton();
         enableTabs();
+
+        // Update Console
+        QString _msg = "NEW PROJECT CREATED: "+ projectPath;
+        UpdateConsole(_msg);
     }
 
 }
@@ -131,6 +135,10 @@ void MainWindow::on_actionOpen_Project_triggered()
     enableTabs();
     // Update User Information
     updateUserInformation();
+
+    // Update Console
+    QString _msg = "OPEN PROJECT: "+ projectPath;
+    UpdateConsole(_msg);
 }
 void MainWindow::updateUserInformation()
 {
@@ -164,6 +172,9 @@ void MainWindow::on_actionSave_triggered()
     saveProjectData();
     disableSaveButton();
     enableCloseButton();
+    // Update Console
+    QString _msg = "SAVE PROJECT";
+    UpdateConsole(_msg);
 }
 
 void MainWindow::on_actionSave_As_triggered()
@@ -177,6 +188,11 @@ void MainWindow::on_actionSave_As_triggered()
     saveProjectData();
     disableSaveButton();
     enableCloseButton();
+
+
+    // Update Console
+    QString _msg = "SAVE PROJECT as: " + projectPath;
+    UpdateConsole(_msg);
 }
 
 void MainWindow::saveProjectData()
@@ -203,6 +219,10 @@ void MainWindow::on_actionClose_Project_triggered()
     // Clean Tabs
 
     cleanTabInformation();
+
+    // Update Console
+    QString _msg = "CLOSE PROJECT";
+    UpdateConsole(_msg);
 }
 
 void MainWindow::cleanTabInformation()
@@ -296,7 +316,12 @@ void MainWindow::on_editFileButton_clicked()
         _projectData = _dialog.getProjectData();
         QString _clinicalPath = _projectData.getClinicalPatientFilePath();
         ui->patientFilePathLineEdit->setText(_clinicalPath);
+
+        // Update Console
+        QString _msg = "CREATED FILE" + _clinicalPath;
+        UpdateConsole(_msg);
     }
+
 
 }
 
@@ -319,6 +344,10 @@ void MainWindow::on_createScriptsButton_clicked()
     _parser.setProjectData(_projectData);
     _parser.createLauncherScript();
     _parser.createExecuteScript();
+
+    // Update Console
+    QString _msg = "CREATED SCRIPTS in " + _projectData.getProjectPath();
+    UpdateConsole(_msg);
 }
 
 
@@ -327,4 +356,9 @@ void MainWindow::on_actionAbout_HeartFEniCs_GUI_triggered()
     AboutDialog _dialog;
     _dialog.exec();
 
+}
+void  MainWindow::UpdateConsole(const QString text)
+{
+    // Adding the text to the console
+    ui->consoleTextEdit->append(text);
 }
