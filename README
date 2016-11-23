@@ -5,23 +5,34 @@ Graphical User Interface to automate the pipeline for Heart simulation using FEn
 This GUI is intended to help in the automation of the script generation for the heart simulation used by the research group at KTH. 
 It is still in early versions, with very few functionality available, but with the basics.
 
-
 2. Implemented features
 Date: Novemeber 2016
 + Automatic generation of execution and launch scripts to be connected with cluster and based on user information
 + Automatic generation of clinical file with the relevant information of patients
 + Easing the parameter selection for dyastole/syastole per each patient in a study
 
+3. Installation
+At the moment it is only available for Linux, tested in Ubuntu 14.04LTS (64bit)
+* Binary: To install the binaries, please:
+    + download the installer : fenicsheartgui-1.0-linux-x64-installer.run.tar.gz 	(installer folder)
+    + unzip the file
+    + Add execution permisions: chmod +x fenicsheartgui-1.0-linux-x64-installer.run
+    + Run the installer: ./fenicsheartgui-1.0-linux-x64-installer.run
+    + Follow the instructions
+* Compiling the source code:
+    + It is highly recommended to use Qtcreator
+    + Configure the project settings in QtCreator 
+    + Compile and run
 
-3. Acknowledgements
+4. Acknowledgements
 This work was possible thanks to the mobility grant José Castillejo 2016 CAS16/00171 (MECD, Spain) and in close collaboration with
 Jeannette Hiromi Spühler (spuhler at csc.kth.se), Department of Computational Science and Technology (KTH)
 
-4. WEBSITES:
+5. WEBSITES:
 Carmen Alonso Montes: http://www.bcamath.org/en/people/calonso
 Jeanette Hiromi Spüler: http://www.csc.kth.se/~spuhler/
 
 
-5. Third party acknowledgemnts
+6. Third party acknowledgemnts
 This tool comes with a installer. Bitrock installer - Install Builder (https://installbuilder.bitrock.com/index.html) was
 used to create it.
